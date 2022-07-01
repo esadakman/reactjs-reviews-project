@@ -26,16 +26,18 @@ const Reviews = () => {
   };
 
   useEffect(() => {
-    const interval
-  
+    const interval = setInterval(() => {
+      Next();
+      console.log("object");
+    }, 30000);
+
     return () => {
-      second
-    }
-  } )
-  
+      clearInterval(interval);
+    };
+  });
 
   return (
-    <section>
+    <section className="container">
       <Review key={data[index].id} {...data[index]} />
       <div className="btn-container">
         <span className="previous" onClick={Previous}>
@@ -44,7 +46,9 @@ const Reviews = () => {
         <span className="next" onClick={Next}>
           <FaChevronRight />
         </span>
-        <button onClick={RandomReview}>Surprise ME</button>
+        <button className="surprise-btn" onClick={RandomReview}>
+          Surprise ME
+        </button>
       </div>
     </section>
   );
