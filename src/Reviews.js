@@ -29,7 +29,7 @@ const Reviews = () => {
     const interval = setInterval(() => {
       Next();
       console.log("object");
-    }, 30000);
+    }, 3000);
 
     return () => {
       clearInterval(interval);
