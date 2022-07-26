@@ -49,7 +49,7 @@ SOLUTION
 
 ```
 $ git clone https://github.com/esadakman/reviews-project.git
-$ cd ../reviews-project
+$ cd reviews-project/
 $ npm install / yarn
 $ npm start / yarn start
 ```
