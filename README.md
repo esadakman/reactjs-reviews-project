@@ -7,7 +7,7 @@ Build a Review Project App using ReactJS.
 ## Description
 
 - Project aims to create a Review Project App.
-- In this project i make a review project app.Customers comments change automatically, and they can also be changed by clicking the go and back  buttons.
+- In this project i made a review app.Customers comments change automatically, and they can also be changed by clicking the go and back  buttons.
 If the user wants to see a random comment, he/she can press the "Surprise Me" button and see it. Customer informations comes from local json file. 
 
 ## Project Link
