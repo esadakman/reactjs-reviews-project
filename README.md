@@ -48,7 +48,7 @@ SOLUTION
 ### Installation
 
 ```
-$ git clone https://github.com/esadakman/reviews-project.git
+$ git clone https://github.com/esadakman/reactjs-reviews-project.git
 $ cd reviews-project/
 $ npm install / yarn
 $ npm start / yarn start
